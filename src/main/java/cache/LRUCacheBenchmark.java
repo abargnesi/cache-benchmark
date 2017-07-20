@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import static java.lang.String.format;
 
-@Fork(value = 1, warmups = 1)
+@Fork(value = 5, warmups = 2)
 public class LRUCacheBenchmark {
 
 	@Benchmark
